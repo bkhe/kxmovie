@@ -27,23 +27,15 @@
     if (self) {
         self.title = @"Movies";
         self.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag: 0];
+        NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+        NSString *shield = [bundlePath stringByAppendingPathComponent:@"shield0109.mp4"];
+        NSString *mkv = [bundlePath stringByAppendingPathComponent:@"shield0109.mkv"];
+        NSString *acc = [bundlePath stringByAppendingPathComponent:@"shield0109.acc.mkv"];
         
         _remoteMovies = @[
-
-            @"http://eric.cast.ro/stream2.flv",
-            @"http://liveipad.wasu.cn/cctv2_ipad/z.m3u8",                          
-            @"http://www.wowza.com/_h264/BigBuckBunny_175k.mov",
-            // @"http://www.wowza.com/_h264/BigBuckBunny_115k.mov",
-            @"rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov",
-            @"http://santai.tv/vod/test/test_format_1.3gp",
-            @"http://santai.tv/vod/test/test_format_1.mp4",
-        
-            //@"rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov",
-            //@"http://santai.tv/vod/test/BigBuckBunny_175k.mov",
-        
-            @"rtmp://aragontvlivefs.fplive.net/aragontvlive-live/stream_normal_abt",
-            @"rtmp://ucaster.eu:1935/live/_definst_/discoverylacajatv",
-            @"rtmp://edge01.fms.dutchview.nl/botr/bunny.flv"
+            mkv,
+            @"rtsp://10.29.100.80:8554/shield0109.mkv",
+            @"http://10.29.100.80/shield0109.mp4"
         ];
         
     }
