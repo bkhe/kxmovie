@@ -34,7 +34,6 @@
 		494B37BD185040C700B506F1 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B37AE185040C700B506F1 /* libswresample.a */; };
 		494B37BE185040C700B506F1 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B37AF185040C700B506F1 /* libswscale.a */; };
 		494B37BF185040C700B506F1 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B37AF185040C700B506F1 /* libswscale.a */; };
-		494B37C41850447100B506F1 /* shield0109.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 494B37C31850447100B506F1 /* shield0109.mkv */; };
 		87E7940716390F6D000A0848 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E7940516390F6D000A0848 /* InfoPlist.strings */; };
 		87E7940916390F6D000A0848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E7940816390F6D000A0848 /* main.m */; };
 		87E7940F16390F6D000A0848 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E7940E16390F6D000A0848 /* Default.png */; };
@@ -85,7 +84,6 @@
 		494B37AD185040C700B506F1 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = build/built/universal/lib/libavutil.a; sourceTree = "<group>"; };
 		494B37AE185040C700B506F1 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = build/built/universal/lib/libswresample.a; sourceTree = "<group>"; };
 		494B37AF185040C700B506F1 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = build/built/universal/lib/libswscale.a; sourceTree = "<group>"; };
-		494B37C31850447100B506F1 /* shield0109.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shield0109.mkv; sourceTree = "<group>"; };
 		87E793F816390F6D000A0848 /* KxMovieExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMovieExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E7940416390F6D000A0848 /* KxMovieExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KxMovieExample-Info.plist"; sourceTree = "<group>"; };
 		87E7940616390F6D000A0848 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 		87E793EB16390F10000A0848 = {
 			isa = PBXGroup;
 			children = (
-				494B37C31850447100B506F1 /* shield0109.mkv */,
 				87E7940216390F6D000A0848 /* KxMovieExample */,
 				87FD6177163A75440090956E /* kxmovie */,
 				87E793FB16390F6D000A0848 /* Frameworks */,
@@ -325,7 +322,6 @@
 				87E7940F16390F6D000A0848 /* Default.png in Resources */,
 				87E7941116390F6D000A0848 /* Default@2x.png in Resources */,
 				87E7941316390F6D000A0848 /* Default-568h@2x.png in Resources */,
-				494B37C41850447100B506F1 /* shield0109.mkv in Resources */,
 				87E794271639107F000A0848 /* kxmovie.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
