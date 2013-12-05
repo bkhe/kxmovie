@@ -8,6 +8,14 @@ build/*
 *.perspectivev3
 *~.nib
 
+## media file
+*.mp4
+*.mkv
+*.m4v
+
+## static linked file
+*.a
+
 ## ignore private workspace stuff added by Xcode4
 xcuserdata
 project.xcworkspace
