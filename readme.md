@@ -1,21 +1,18 @@
 KxMovie - movie player for iOS using ffmpeg (modified by kinglonghuang)
 ===========================================
 
-### Build instructions:
+### Download & Compile
 
 First you need download, configure and build [FFmpeg](http://ffmpeg.org/index.html).
 For this open console and type in
 	
+	git clone https://github.com/lvjian700/kxmovie.git
 	cd kxmovie
-	git submodule update --init	
-	rake 
-Generally, rake will build the armv7,armv7s,i386,and the universal versions under the ./kvmovie folder
-<br>you can also using one of these cmds below to specify the architecture:
+	./install-gas.sh #use sudo command, you should input your password
+	./compile-ffmpeg.sh
 
-	rake 
-	rake build_ffmpeg_i386
-	rake build_ffmpeg_armv7
-	rake build_ffmpeg_armv7s
+Notes:  
+Rake file was deprecated. Do not use it.
 
 ### Usage
 
@@ -49,6 +46,8 @@ at least iOS 5.1 and iPhone 3GS
 ![info view](https://raw.github.com/kolyvan/kxmovie/master/screenshot-info.png "Info View")
 
 ### Feedback
+
+This is forked project, you can feedback to me or other author below:	
 
 Tweet me — [@kolyvan_ru](http://twitter.com/kolyvan_ru).
 Email: kinglong_h@126.com
